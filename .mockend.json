@@ -94,6 +94,9 @@
         "https://bubble.io/",
         "https://www.linkedin.com"
         ]   
-     }
+     },
+    "user": {
+      "belongsTo": "User"
+    }
   }   
 }
