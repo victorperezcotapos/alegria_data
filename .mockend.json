@@ -38,7 +38,7 @@
   
   "Offer": {
     "tittle": {
-      "string": {}
+      "loremWords": { "minLength": 5, "maxLength": 20 }
     },
     "description": {
       "loremParagraphs": { "minLength": 200, "maxLength": 500 }
