@@ -1,7 +1,14 @@
 {
   "User": {
-    "name": {
-      "string": {}
+    "name": { 
+      "string": [
+      "Linda Kong",
+      "Amaury Hallé",
+      "Marin d'Assignies",
+      "Morgan Moyon",
+      "Hugo Cornu",
+      "Clémence Aroq",
+      ]
     },
     "description": {
       "string": {}
