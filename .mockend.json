@@ -1,4 +1,13 @@
 {
+   "Application": {
+     "user": {
+      "belongsTo": "User"
+    },
+     "offer": {
+      "belongsTo": "Offer"
+    }
+  },
+  
   "User": {
     "name": { 
       "string": [
@@ -103,15 +112,6 @@
     },
     "offerapplications": {
       "hasMany": "Application"
-    }
-  },
-  
-   "Application": {
-     "user": {
-      "belongsTo": "User"
-    },
-     "offer": {
-      "belongsTo": "Offer"
     }
   }
  
