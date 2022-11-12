@@ -72,6 +72,24 @@
         "Africa",
         "Oceania"
       ]
-    }
+    },
+    "salary": {
+       "int": { "min": 1000, "max": 10000 }      
+    },
+     "hours": { 
+      "string": [ 
+        "Full-Time",
+        "Part-Time",
+        "Freelancer"
+      ]
+    },
+    "active": { "boolean": {} 
+    },
+     "website": { 
+      "string": [
+        "https://alegria.group/",
+        "https://bubble.io/",
+        "https://www.linkedin.com"
+        ]    
   }   
 }
