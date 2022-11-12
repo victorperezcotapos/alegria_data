@@ -10,8 +10,20 @@
       "Clémence Aroq"
       ]
     },
+    "linkedin": { 
+      "string": [
+        "https://www.linkedin.com/in/linda-kong-mbs/",
+        "https://www.linkedin.com/in/marin-dassignies/",
+        "https://www.linkedin.com/in/amauryhalle/",
+        "https://www.linkedin.com/in/morgan-moyon-87758a18/",
+        "https://www.linkedin.com/in/hugo-cornu/",
+        "https://www.linkedin.com/in/cl%C3%A9mence-aroq/"      ]
+    },
     "description": {
-      "string": {}
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
+    "phone": {
+      { "int": { "min": 100000000, "max": 999999999 } }
     },
     "image": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
