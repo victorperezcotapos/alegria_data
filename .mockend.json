@@ -1,10 +1,10 @@
 {
    "Application": {
      "user": {
-      "belongsTo": "User"
+      "belongsTo": User
     },
      "offer": {
-      "belongsTo": "Offer"
+      "belongsTo": Offer
     }
   },
   
@@ -44,10 +44,10 @@
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
     "useroffers": {
-      "hasMany": "Offer"
+      "hasMany": Offer
     },
     "userapplications": {
-      "hasMany": "Application"
+      "hasMany": Application
     }
   },
   
@@ -108,10 +108,10 @@
         ]   
      },
     "user": {
-      "belongsTo": "User"
+      "belongsTo": User
     },
     "offerapplications": {
-      "hasMany": "Application"
+      "hasMany": Application
     }
   }
  
