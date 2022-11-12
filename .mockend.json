@@ -36,8 +36,6 @@
     }
   },
   
-  
-  {
   "Offer": {
     "tittle": {
       "string": {}
@@ -56,7 +54,7 @@
         "Operations"
       ]
     },
-      "language": { 
+     "language": { 
       "string": [   
         "English",
         "Spanish",
@@ -75,8 +73,5 @@
         "Oceania"
       ]
     }
-  } 
-  
-  
-  
+  }   
 }
