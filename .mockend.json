@@ -36,6 +36,9 @@
     },
     "useroffers": {
       "hasMany": "Offer"
+    },
+    "userapplications": {
+      "hasMany": "Application"
     }
   },
   
@@ -97,6 +100,18 @@
      },
     "user": {
       "belongsTo": "User"
+    },
+    "offerapplications": {
+      "hasMany": "Application"
     }
-  }   
+  },
+  
+   "Application": {
+     "user": {
+      "belongsTo": "User"
+    },
+     "offer": {
+      "belongsTo": "Offer"
+    }
+ 
 }
