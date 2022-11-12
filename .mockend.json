@@ -95,7 +95,7 @@
       "string": [ 
         "Full-Time",
         "Part-Time",
-        "Freelancer"
+        "Freelance"
       ]
     },
     "active": { "boolean": {} 
