@@ -35,4 +35,48 @@
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     }
   }
+  
+  
+  {
+  "Offer": {
+    "tittle": {
+      "string": {}
+    },
+    "description": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
+    "job_area": { 
+      "string": [        
+        "Design",
+        "Development",
+        "DevOps",
+        "Management",
+        "Marketing",
+        "Sales",
+        "Operations"
+      ]
+    },
+      "language": { 
+      "string": [   
+        "English",
+        "Spanish",
+        "French",
+        "Portuguese"
+      ]
+    },
+      "region": { 
+      "string": [ 
+        "Europe",
+        "North America",
+        "Central America",
+        "South America",
+        "Asia",
+        "Africa",
+        "Oceania"
+      ]
+    }
+  } 
+  
+  
+  
 }
